@@ -209,3 +209,7 @@ def social_logout(request):
         return HttpResponseRedirect(settings.LOGOUT_REDIRECT_URL)
     else:
         return logout_response
+
+
+def signup_complete(request):
+    return render_to_response('socialauth/signup_complete.html', payload, RequestContext(request))

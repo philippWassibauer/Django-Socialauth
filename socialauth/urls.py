@@ -26,5 +26,6 @@ urlpatterns = patterns('socialauth.views',
 urlpatterns += patterns('socialauth.views',
     url(r'^edit/profile/$', 'editprofile',  name='socialauth_editprofile'),                    
     url(r'^logout/$', 'social_logout',  name='socialauth_social_logout'),
+    url(r'^signup_complete/$', 'signup_complete', name='socialauth_signin_complete')
 ) 
 
