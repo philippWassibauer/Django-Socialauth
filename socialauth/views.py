@@ -212,4 +212,5 @@ def social_logout(request):
 
 
 def signup_complete(request):
+    payload = {}
     return render_to_response('socialauth/signup_complete.html', payload, RequestContext(request))
