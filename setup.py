@@ -3,7 +3,7 @@ ez_setup.use_setuptools()
 from setuptools import setup, find_packages
 setup(
     name = "django-socialauth",
-    version = "0.1.3",
+    version = "0.1.4",
     packages = ['socialauth', 'openid_consumer'],
     author = "Usware Technologies",
     author_email = "info@uswaretech.com",
